@@ -60,6 +60,11 @@ AUTHOR_TESTING=1 ./Build test
 %{_mandir}/man3/Path::Class::File.3pm*
 
 %changelog
+* Sun Jun 07 2015 Rajiv M Ranganath <rajiv.ranganath@atihita.com>
+- Adapt for AL/LL
+- Add package support URL
+- Import source package EPEL7/perl-Path-Class-0.33-1.el7
+
 * Thu Dec 12 2013 Paul Howarth <paul@city-fan.org> - 0.33-1
 - Update to 0.33:
   - New copy_to() and move_to() methods

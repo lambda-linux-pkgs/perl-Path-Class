@@ -26,6 +26,9 @@ BuildRequires:	perl(Test::Perl::Critic)
 Requires:	perl(:MODULE_COMPAT_%(eval "`perl -V:version`"; echo $version))
 
 %description
+For package support, please visit
+https://github.com/lambda-linux-pkgs/%{name}/issues
+
 Path::Class is a module for manipulation of file and directory specifications
 (strings describing their locations, like '/home/ken/foo.txt' or
 'C:\Windows\Foo.txt') in a cross-platform manner. It supports pretty much every

@@ -1,6 +1,8 @@
+%define _buildid .1
+
 Name:		perl-Path-Class
 Version:	0.33
-Release:	1%{?dist}
+Release:	1%{?_buildid}%{?dist}
 Summary:	Cross-platform path specification manipulation
 License:	GPL+ or Artistic
 Group:		Development/Libraries
